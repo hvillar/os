@@ -9,4 +9,4 @@ jobs:
       BOARD: rpi3
       PLATFORM: v0-hdmi
     secrets:
-      DEPLOY_KEY: "${{secrets.DEPLOY_KEY}}"
+      DEPLOY_KEY: "${{secrets.GITHUB_TOKEN}}"
