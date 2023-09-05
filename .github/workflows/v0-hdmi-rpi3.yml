@@ -7,6 +7,6 @@ jobs:
     uses: hvillar/os/.github/workflows/os.yml@master
     with:
       BOARD: rpi3
-      PLATFORM: v1-hdmiusb
+      PLATFORM: v0-hdmiusb
     secrets:
       DEPLOY_KEY: "${{secrets.WORKFLOW_TOKEN}}"
