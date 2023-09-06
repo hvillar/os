@@ -1,4 +1,4 @@
-name: v1-hdmi-rpi3
+name: v0-hdmi-rpi3
 on: workflow_dispatch
 
 
@@ -7,6 +7,6 @@ jobs:
     uses: hvillar/os/.github/workflows/os.yml@master
     with:
       BOARD: rpi3
-      PLATFORM: v0-hdmiusb
+      PLATFORM: v0-hdmi
     secrets:
       DEPLOY_KEY: "${{secrets.WORKFLOW_TOKEN}}"
